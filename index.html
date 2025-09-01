@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio web</title>
+  
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div id="header">
+    <nav>
+      <!-- <i class="fa-solid fa-bars"></i> -->
+      <!-- <img src="image/port1.jpeg" class="im" /> -->
+        <h2 class="port">Portfolio</h2>
+        <i id="open-tab" class="fa-solid fa-bars"></i>
+      <ul id="my-ul">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Servies</a></li>
+        <li><a href="#portfolio">Portfoilo</a></li>
+        <li><a href="#contect">Contect</a></li>
+        <i id="close-tab" class="fa-solid fa-xmark"></i>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="name">
+        <p class="post">Front-end Devloper</p>
+        <h2>
+          Hi , I'm <span>Yuvraj Sisodiya</span>
+          <br />
+          From Hello World Institute
+        </h2>
+      </div>
+    </div>
+ 
+    <!-- About -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img class="my-img" src="image/img2.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1>About me</h1>
+            <p class="paragraph">
+              I am a passionate Front-end web developer with strong expertise
+              in building dynamic, user-friendly, and scalable web
+              applications. I enjoy working with modern frameworks, clean code
+              practices, and problem-solving to deliver efficient digital
+              solutions. With a focus on backend development, APIs, and
+              database integration, I aim to create seamless user experiences.
+              Constantly learning and exploring, I’m dedicated to growing as a
+              developer and adding value through technology.
+            </p>
+            <div class="tab-tittles">
+              <p class="tab-link active-link" onclick="openTab('skills')">
+                Skills
+              </p>
+              <p class="tab-link" onclick="openTab('experience')">
+                Experience
+              </p>
+              <p class="tab-link" onclick="openTab('project')">Project</p>
+              <p class="tab-link" onclick="openTab('education')">Education</p>
+            </div>
+            <div id="skills" class="tab-contain active-tab">
+              <ul>
+                <li>
+                  <span>UI/UX</span><br />
+                  Designing Web/App interfaces
+                </li>
+                <li>
+                  <span>Web Devlopment</span>
+                  <br />
+                  Web/App Devlopment.<br> HTML,CSS,JS 
+                </li>
+                <li>
+                  <span>MS-Office</span><br>MS-Word, MS-Excel, PowerPoint, PhotoShop, Canva 
+                </li>
+                <!-- <li>
+                  <span>App Devlopment</span>
+                  <br />
+                  Building Andorid/IOS apps
+                </li> -->
+              </ul>
+            </div>
+            <div id="experience" class="tab-contain">
+              <ul>
+                <li>
+                  <span>Languages/Frameworks</span><br />C C++, HTML, CSS,
+                  JavaScript, Boots-Strip,Template
+                </li>
+                <li>
+                  <span>Frontend Development</span><br />Creating responsive
+                  websites with HTML, CSS, JavaScript, Boots-Strip
+                </li>
+                <li><span>Tools</span><br />Git-Hub, VS-Code, MS-Office,</li>
+              </ul>
+            </div>
+            <div id="project" class="tab-contain">
+              <ul>
+                <li>
+                  <span>Project</span> <br />Portfolio website.<br />Amazon
+                  web-Page.<br />
+                </li>
+                <li>
+                  <span>Game Devlopment</span><br />Tic-Tac-Toe Game<br />
+                </li>
+              </ul>
+            </div>
+            <div id="education" class="tab-contain">
+              <ul>
+                <li>
+                  <span>HigherSecondary School </span> <br />Govt.MODEL HS
+                  School Sanwer 2020-2024
+                </li>
+                <li>
+                  <span>Secondary School</span><br />Yash Academy Sanwer 2012
+                  - 2020
+                </li>
+                <li>
+                  <span>Bachelor of Computer Science(BCA)</span><br />Government
+                  Holkar (Model, Autonomous) Science College, Indore (M.P.)<br />DAVV
+                  University 2024 to 2027
+                </li>
+                <li>
+                  <span>Diploma Course in Graphics & Office Automation</span>
+                  <br>DCGA 21/03/2024 to 4/12/2024
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services -->
+    <div id="services">
+      <div class="container-servies">
+        <h1>My Services</h1>
+        <div class="boxes-design">
+          <div>
+            <!-- img -->
+            <i class="fa-solid fa-code"></i>
+            <h1>Web Design</h1>
+            <p>
+              Web design focuses on creating attractive, user-friendly
+              websites by combining layout, colors, and responsiveness,
+              ensuring smooth navigation.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <!-- img -->
+            <i class="fa-solid fa-crop-simple"></i>
+            <h1>UI/UX Design</h1>
+            <p>
+              UI/UX design enhances digital experiences by focusing on
+              usability, aesthetics, and interaction. It ensures intuitive
+              navigation,responsive layouts.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <!-- img -->
+            <i class="fa-brands fa-app-store"></i>
+            <h1>App Design</h1>
+            <p>
+              App design combines creativity and functionality to build
+              intuitive, user-friendly mobile applications. It focuses on
+              layout, navigation, responsiveness.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--portfolio  -->
+    <div id="portfolio">
+      <div class="container-servies">
+        <h1>My Work</h1>
+        <div class="work">
+          <div>
+            <img src="image/work1.jpg" />
+            <div class="layer">
+              <h3>Social Media app</h3>
+              <p>
+                The app connects you to talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div>
+            <img src="image/work2.jpg" alt="" />
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>
+                The app connects you to talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div>
+            <img src="image/work3.jpg" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                The app connects you to talented people around the world.
+                Download it from play store.
+              </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- contect -->
+    <div id="contect">
+      <div class="container">
+        <div class="row">
+          <div class="contect-col-1">
+            <h1>Contact Me</h1>
+            <p> <i class="fa-solid fa-paper-plane"></i>yuvrajsisodiyas19@gmail.com</p>
+            <p> <i class="fa-solid fa-phone"></i>6266912811</p>
+            <div class="social-media">
+              <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/login"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="ressume" class="btn btn-2">Download</a>
+          </div>
+          <div class="contect-col-2">
+            <form name="submit-to-google-sheet">
+              <input id="ip" type="text" name="Name" placeholder="Your Name" required>
+              <input id="ip" type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="4" placeholder="Enter Message" required> </textarea>
+              <button type="submit" class="sub-btn">Submit </button>
+              <p class="msg"></p>
+            </form>
+            
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>Copyright &copy; Vist My Portfolio Website <i class="fa-solid fa-heart"></i> Thank you</p>
+      </div>
+    </div>
+</body>
+<script>
+  let tablinks = document.querySelectorAll(".tab-link");
+  let tabContents = document.querySelectorAll(".tab-contain");
+  function openTab(tabname) {
+    for (tablink of tablinks) {
+      // console.log(tablink);
+      tablink.classList.remove("active-link");
+    }
+
+    for (tabContent of tabContents) {
+      tabContent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycby1tSj8AmHEWTs_cV6r2T14n_rgZa7WMVegHxZ7SfFhQyWMOduw5pnse5dXhpaeyUIRCA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  let msg = document.querySelector(".msg");
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    msg.innerText = "waiting...."
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+      .then(response => {
+        msg.innerText = "messege sent succefully";
+        setTimeout(()=>{
+          msg.innerHTML=""
+        },5000)
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script>
+  let open=document.querySelector("#open-tab");
+  // console.log(open);
+  let close=document.querySelector("#close-tab");
+  // console.log(close)
+  let myul=document.querySelector("#my-ul");
+  open.addEventListener("click",()=>{
+    myul.style.right="0px";
+    
+  })
+  close.addEventListener("click",()=>{
+    myul.style.right="-200px";
+    
+  });
+
+</script>
+
+</html>

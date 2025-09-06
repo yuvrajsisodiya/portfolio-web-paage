@@ -243,7 +243,7 @@
             <form name="submit-to-google-sheet">
               <input id="ip" type="text" name="Name" placeholder="Your Name" required>
               <input id="ip" type="email" name="Email" placeholder="Your Email" required>
-              <textarea name="Message" rows="4" placeholder="Enter Message" required> </textarea>
+              <textarea name="Message" rows="4" placeholder="Enter a message" required> </textarea>
               <button type="submit" class="sub-btn">Submit </button>
               <p class="msg"></p>
             </form>
@@ -274,7 +274,7 @@
 </script>
 
 <script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycby1tSj8AmHEWTs_cV6r2T14n_rgZa7WMVegHxZ7SfFhQyWMOduw5pnse5dXhpaeyUIRCA/exec'
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxTz1n78VrOJ4KIvEhptafRgSaZW4Rf5RhE6tm8Ng0E92_BdOwN2Q9JhCol5Qwa8Xw-/exec'
   const form = document.forms['submit-to-google-sheet']
   let msg = document.querySelector(".msg");
   form.addEventListener('submit', e => {
@@ -307,5 +307,6 @@
   });
 
 </script>
+
 
 </html>
